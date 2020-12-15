@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Checkpoint
+  - Enemy
+  - Points
+  - Goal
+  - Knife
+  - DeathPlane
+  - SpikedBall
+  - JumpingPlat
+  - FallingPlat
+  - RotatingPlatform
   layers:
   - Default
   - TransparentFX
@@ -13,16 +24,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Player
+  - AI
+  - Bullet
+  - DeathPlane
+  - SpikedBall
+  - HealthBar
+  - Enemy
+  - Platforms
   - 
   - 
   - 
@@ -40,4 +51,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1838579481
     locked: 0
